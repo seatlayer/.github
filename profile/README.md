@@ -11,7 +11,11 @@ interface, with live seat availability, temporary holds, and server-side booking
 [Seating chart demos](https://app.seatlayer.io/demo) ·
 [Support](mailto:hello@seatlayer.io)
 
-[![SeatLayer seat picker in a Flutter app, from venue overview to seat selection and 3D view](https://raw.githubusercontent.com/seatlayer/seatlayer-flutter/main/doc/media/picker-flow.gif)](https://docs.seatlayer.io/buyer-sdk/flutter/)
+[![SeatLayer interactive seating chart with ticket categories, live availability, and best-available seat selection](https://seatlayer.io/assets/product/interactive-seating-chart-buyer-picker.jpg)](https://app.seatlayer.io/demo/play/grand-theatre)
+
+[Try the Grand Theatre seat picker](https://app.seatlayer.io/demo/play/grand-theatre) ·
+[Explore the 53,018-seat stadium](https://app.seatlayer.io/demo/play/large-stadium) ·
+[See the interactive 3D seat view](https://seatlayer.io/3d-seat-map/)
 
 ## Choose a seat map SDK
 
@@ -25,6 +29,19 @@ interface, with live seat availability, temporary holds, and server-side booking
 | React Native / Expo | [`@seatlayer/react-native`](https://www.npmjs.com/package/@seatlayer/react-native) | [React Native seat map SDK](https://docs.seatlayer.io/buyer-sdk/react-native/) |
 | Swift / SwiftUI | [iOS Swift package](https://github.com/seatlayer/seatlayer-ios) | [iOS seating chart SDK](https://docs.seatlayer.io/buyer-sdk/ios/) |
 | Kotlin / Jetpack Compose | [Android Maven package](https://central.sonatype.com/artifact/io.seatlayer/seatlayer-android) | [Android seating chart SDK](https://docs.seatlayer.io/buyer-sdk/android/) |
+
+<details>
+<summary>See the mobile seat picker and 3D view in action</summary>
+
+<p align="center">
+  <a href="https://docs.seatlayer.io/buyer-sdk/flutter/">
+    <img src="https://raw.githubusercontent.com/seatlayer/seatlayer-flutter/main/doc/media/picker-flow.gif" alt="SeatLayer Flutter picker walkthrough from venue overview to seat selection and 3D view" width="240">
+  </a>
+</p>
+
+[Build this with the Flutter seat map SDK](https://docs.seatlayer.io/buyer-sdk/flutter/).
+
+</details>
 
 ## Connect your backend
 
