@@ -2,9 +2,9 @@
   <img src="./assets/seatlayer-developer-platform.svg" alt="SeatLayer — seat map APIs and SDKs for web, mobile, and backend applications" width="100%">
 </p>
 
-SeatLayer provides APIs and SDKs for interactive seating charts in web and
-mobile apps. Start with a ready seat picker or compose the chart into your own
-interface, with live seat availability, temporary holds, and server-side booking.
+SeatLayer is interactive seating chart software built for stadium scale.
+Platforms embed the white-label seat picker with their own checkout; organizers
+sell seated events on their own website with their own payment gateway.
 
 [Seat map SDK and API overview](https://seatlayer.io/developers/) ·
 [Documentation](https://docs.seatlayer.io/) ·
@@ -16,6 +16,10 @@ interface, with live seat availability, temporary holds, and server-side booking
 [Try the Grand Theatre seat picker](https://app.seatlayer.io/demo/play/grand-theatre) ·
 [Explore the 53,018-seat stadium](https://app.seatlayer.io/demo/play/large-stadium) ·
 [See the interactive 3D seat view](https://seatlayer.io/3d-seat-map/)
+
+## Scale evidence
+
+SeatLayer is benchmarked on public 100,000-, 150,000- and 200,000-seat venue fixtures: 200,000 seats chart-ready in 1.95 s with 58 FPS zoom and 60 FPS pan in a desktop benchmark (15 September 2026). Fixtures, method, all runs and SHA-256 manifests: https://github.com/seatlayer/seatlayer-performance · Try the 53,018-seat live demo: https://app.seatlayer.io/demo/play/large-stadium
 
 ## Choose a seat map SDK
 
