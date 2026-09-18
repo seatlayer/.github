@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/seatlayer-developer-platform.svg" alt="SeatLayer — seat map APIs and SDKs for web, mobile, and backend applications" width="100%">
+  <img src="./assets/seatlayer-developer-platform.svg" alt="SeatLayer seat map APIs and SDKs for web, mobile, and backend applications" width="100%">
 </p>
 
 SeatLayer is interactive seating chart software built for stadium scale.
@@ -14,12 +14,16 @@ sell seated events on their own website with their own payment gateway.
 [![SeatLayer interactive seating chart with ticket categories, live availability, and best-available seat selection](https://seatlayer.io/assets/product/interactive-seating-chart-buyer-picker.jpg)](https://app.seatlayer.io/demo/play/grand-theatre)
 
 [Try the Grand Theatre seat picker](https://app.seatlayer.io/demo/play/grand-theatre) ·
-[Explore the 53,018-seat stadium](https://app.seatlayer.io/demo/play/large-stadium) ·
+[Explore the 200,000-seat stadium](https://app.seatlayer.io/demo/play/century-stadium-200k) ·
 [See the interactive 3D seat view](https://seatlayer.io/3d-seat-map/)
+
+Platforms embed the seat picker in the client with a public key and confirm the booking from their server with a secret key, keeping checkout and their own payment provider. Organizers sell on their own site with hosted checkout on the gateway they connect.
+
+**Start here:** [Quickstart](https://docs.seatlayer.io/start/quickstart/) · [Holds and checkout](https://docs.seatlayer.io/buyer-sdk/holds-and-checkout/) · [SDK catalog](https://docs.seatlayer.io/sdk-catalog.json) · [Pricing](https://seatlayer.io/pricing/): $0 entry, 100 free confirmed-sold-seat credits per organization each month, then $0.10 down to $0.05 a credit, and credits never expire.
 
 ## Scale evidence
 
-SeatLayer is benchmarked on public 100,000-, 150,000- and 200,000-seat venue fixtures: 200,000 seats chart-ready in 1.95 s with 58 FPS zoom and 60 FPS pan in a desktop benchmark (15 September 2026). Fixtures, method, all runs and SHA-256 manifests: https://github.com/seatlayer/seatlayer-performance · Try the 53,018-seat live demo: https://app.seatlayer.io/demo/play/large-stadium
+Benchmarked on public 100,000-, 150,000- and 200,000-seat venue fixtures on 15 September 2026: 200,000 seats chart-ready in 1.95 s, desktop, local production build. Fixtures, method and run logs: https://github.com/seatlayer/seatlayer-performance. Live 200,000-seat stadium demo: https://app.seatlayer.io/demo/play/century-stadium-200k. This is renderer evidence, not a concurrent-buyer claim.
 
 ## Choose a seat map SDK
 
@@ -74,7 +78,7 @@ orders, tickets, and refunds.
 - **Work with agents:** use the [SeatLayer AI Toolkit](https://github.com/seatlayer/seatlayer-ai-toolkit)
   for integration help and the [buyer WebMCP tools](https://docs.seatlayer.io/buyer-sdk/webmcp-agent-tools/)
   for seat selection in compatible browser assistants.
-- **Try a large chart:** open the [53,018-seat stadium demo](https://app.seatlayer.io/demo/play/large-stadium)
+- **Try a large chart:** open the [200,000-seat stadium demo](https://app.seatlayer.io/demo/play/century-stadium-200k)
   and read the [renderer performance documentation](https://docs.seatlayer.io/platform/renderer-performance/).
 
 ## Hosted ticketing and WordPress
