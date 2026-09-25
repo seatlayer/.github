@@ -1,0 +1,21 @@
+name: Feature request
+description: Suggest an improvement to a SeatLayer SDK, example or integration.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: Describe the use case and what gets in the way today.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: What would help?
+      description: The API, option or behaviour you would like to see.
+  - type: input
+    id: package
+    attributes:
+      label: Package
+      description: For example `@seatlayer/js`, `seatlayer-ios` or `@seatlayer/server`.
