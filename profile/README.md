@@ -6,6 +6,20 @@ SeatLayer is interactive seating chart software built for stadium scale.
 Platforms embed the white-label seat picker with their own checkout; organizers
 sell seated events on their own website with their own payment gateway.
 
+- **Our own seat map engine.** SeatLayer builds its own seat map renderer. The
+  same engine draws a 300-seat studio theatre and a 200,000-seat stadium fixture.
+- **Hosted ticketing and the SDK on one account.** Sell your own events with
+  Hosted Ticketing, put the seat picker inside your own platform with the SDK,
+  or do both on the same account and the same charts.
+- **Pick seats in 3D at checkout.** Buyers can open the venue in 3D and choose
+  seats there, in SeatLayer's hosted checkout and in the picker on your own
+  site. A seat picked in 3D is the same seat in the cart, the hold and the
+  booking. 3D covers venues up to 60,000 seats.
+- **14 payment gateways.** Stripe, PayPal, Square, Braintree, Authorize.Net,
+  Checkout.com, Mollie, Razorpay, Tap, Mercado Pago, Xendit, Flutterwave,
+  Paystack and iyzico. Buyers pay straight into the organizer's own account.
+
+[SeatLayer](https://seatlayer.io/) ·
 [Seat map SDK and API overview](https://seatlayer.io/developers/) ·
 [Documentation](https://docs.seatlayer.io/) ·
 [Seating chart demos](https://app.seatlayer.io/demo) ·
@@ -19,7 +33,7 @@ sell seated events on their own website with their own payment gateway.
 
 Platforms embed the seat picker in the client with a public key and confirm the booking from their server with a secret key, keeping checkout and their own payment provider. Organizers sell on their own site with hosted checkout on the gateway they connect.
 
-**Start here:** [Quickstart](https://docs.seatlayer.io/start/quickstart/) · [Holds and checkout](https://docs.seatlayer.io/buyer-sdk/holds-and-checkout/) · [SDK catalog](https://docs.seatlayer.io/sdk-catalog.json) · [Pricing](https://seatlayer.io/pricing/): $0 entry, 100 free confirmed-sold-seat credits per organization each month, then $0.10 down to $0.05 a credit, and credits never expire.
+**Start here:** [Quickstart](https://docs.seatlayer.io/start/quickstart/) · [Holds and checkout](https://docs.seatlayer.io/buyer-sdk/holds-and-checkout/) · [SDK catalog](https://docs.seatlayer.io/sdk-catalog.json) · [Pricing](https://seatlayer.io/pricing/): $0 entry, 100 free confirmed-sold-seat credits per organization each month, then $0.10 down to $0.05 a credit, and credits never expire. Hosted Ticketing is $0.50 per confirmed ticket, and your first 25 tickets are free.
 
 **Runnable examples:** [React and Vite](https://github.com/seatlayer/seatlayer-react-example) is a Vite app with the headless seating chart, best available, seat holds, and a checkout handoff. [Next.js 15](https://github.com/seatlayer/seatlayer-nextjs-example) is the App Router version of the same flow with an `/api/hold` server route. Both read an `.env.local` with your event key and public key, and deploy from the buttons in their READMEs.
 

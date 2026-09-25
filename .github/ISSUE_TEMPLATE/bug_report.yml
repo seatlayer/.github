@@ -1,0 +1,41 @@
+name: Bug report
+description: Something in a SeatLayer SDK, example or integration does not work as documented.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please do not report security vulnerabilities here. Email security@seatlayer.io instead.
+        Never paste secret keys, customer data or live booking credentials.
+  - type: input
+    id: version
+    attributes:
+      label: Package and version
+      description: For example `@seatlayer/react 0.100.0` or `seatlayer (Flutter) 0.11.0`.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser, OS, device, framework or runtime version, as relevant.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened
+      description: What you saw, including any error message or console output.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What you expected
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: The smallest code or steps that show the problem. A test-mode event key is fine.
+    validations:
+      required: true

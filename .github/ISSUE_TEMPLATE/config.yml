@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://docs.seatlayer.io/
+    about: Guides, API reference and SDK documentation.
+  - name: Report a security vulnerability
+    url: https://github.com/seatlayer/.github/blob/main/SECURITY.md
+    about: Report security issues privately to security@seatlayer.io, not in a public issue.
