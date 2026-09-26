@@ -69,6 +69,7 @@ Confirm bookings, manage events and inventory, and verify webhooks from your bac
 
 ## Start building
 
+- Try it in your browser, no account needed: [pick a seat](https://app.seatlayer.io/demo/play/grand-theatre) · [the 3D venue](https://app.seatlayer.io/demo/play/grand-theatre?tour=3d) · [the chart designer](https://app.seatlayer.io/demo/designer) · [all live demos](https://docs.seatlayer.io/start/live-demos/)
 - [Quickstart](https://docs.seatlayer.io/start/quickstart/) and [holds and checkout](https://docs.seatlayer.io/buyer-sdk/holds-and-checkout/)
 - Runnable examples: [React and Vite](https://github.com/seatlayer/seatlayer-react-example) · [Next.js](https://github.com/seatlayer/seatlayer-nextjs-example)
 - Moving from seats.io: [migration guide](https://docs.seatlayer.io/integrations/migrate-from-seatsio/)
