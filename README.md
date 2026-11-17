@@ -1,6 +1,6 @@
 # SeatLayer community resources
 
-SeatLayer is interactive seating chart software built for stadium scale. Platforms embed the white-label seat picker with their own checkout; organizers sell seated events on their own website with their own payment gateway.
+SeatLayer is reserved-seat ticketing and seating software: organizers sell with hosted checkout, a box office, door check-in and season tickets, and platforms add the same seat maps, with 3D seat views, through the SeatLayer SDK and API.
 
 This repository holds the organization profile and community health files for the SeatLayer GitHub organization.
 
