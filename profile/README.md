@@ -1,77 +1,83 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/seatlayer-hero-dark.jpg">
-  <img src="./assets/seatlayer-hero-light.jpg" alt="SeatLayer: we build the seat map engine, then we sell tickets on it. 200,000 seats on one chart, 3D in the checkout, 14 payment gateways, $0.50 a hosted ticket." width="100%">
+  <img src="./assets/seatlayer-hero-light.jpg" alt="SeatLayer: reserved-seat ticketing on its own seat map engine. 200,000 seats on one chart, 3D in the checkout, 14 payment gateways, $0.50 a hosted ticket." width="100%">
 </picture>
 
-SeatLayer builds its own seat map engine and sells reserved-seat tickets on it.
-Organizers sell with Hosted Ticketing on their own payment gateway. Platforms put
-the seat picker in their product with the SDK and API. Both run on one account
-and the same charts.
+**SeatLayer is reserved-seat ticketing and seating software:** organizers sell with hosted
+checkout, a box office, door check-in and season tickets, and platforms add the same seat maps,
+with 3D seat views, through the SeatLayer SDK and API.
 
-[Website](https://seatlayer.io/) ·
-[Documentation](https://docs.seatlayer.io/) ·
-[Live demos](https://app.seatlayer.io/demo) ·
-[Pricing](https://seatlayer.io/pricing/) ·
-[hello@seatlayer.io](mailto:hello@seatlayer.io)
+[Website](https://seatlayer.io/) · [For developers](https://seatlayer.io/developers/) ·
+[Documentation](https://docs.seatlayer.io/) · [Live demos](https://seatlayer.io/demo/) ·
+[Pricing](https://seatlayer.io/pricing/) · [hello@seatlayer.io](mailto:hello@seatlayer.io)
 
 <a href="https://app.seatlayer.io/demo/play/grand-theatre"><img src="./assets/one-chart-every-view.jpg" alt="One chart shown three ways: the 2D seat map, the 3D venue and the view from a seat, all built from the same chart" width="100%"></a>
 
-## What is different
+## For organizers and venues
 
-- **Our own seat map engine.** The same renderer draws a 300-seat studio and a
-  200,000-seat stadium. [Open the 200,000-seat demo](https://app.seatlayer.io/demo/play/century-stadium-200k).
-- **3D in the checkout.** Every chart opens in 3D and shows the view from each
-  seat, with no modelling step. A seat picked in 3D is the same seat in the cart,
-  the hold and the booking. 3D covers venues up to 60,000 seats.
-  [See the 3D seat map](https://seatlayer.io/3d-seat-map/).
-- **Hosted Ticketing and the SDK on one account.** Design a venue once, then sell
-  it on your hosted event page, inside your own product, or both.
-- **14 payment gateways.** Buyers pay straight into the organizer's own account.
-- **Bring any floor plan.** Upload an image or PDF and click one seat per block
-  to add every printed seat. [How Click the plan works](https://docs.seatlayer.io/designer/reference-plan-import/).
+- **Sell on your own site.** An event page and checkout through your own payment account, with
+  14 payment gateways including Stripe, PayPal, Square and Razorpay. [Sell tickets on your website](https://seatlayer.io/sell-tickets-on-your-website/)
+- **Box office and door check-in.** Sell at the counter on the same live seats, and scan tickets
+  at the door with the SeatLayer iPhone app or any phone browser. [Box office](https://seatlayer.io/box-office/)
+- **Season tickets.** The same seat for every date of a season, with renewals. [Season tickets](https://seatlayer.io/season-tickets/)
+- **3D in the checkout.** Every chart up to 60,000 seats opens in 3D with the view from each seat,
+  with no modelling step. [3D seat map](https://seatlayer.io/3d-seat-map/)
+- **Any venue.** Draw it in the designer, start from a template, describe it to the AI chart
+  builder, or click one seat per block on your floor plan. [Venue designer](https://seatlayer.io/venue-designer/)
 
-<img src="./assets/hosted-and-sdk-one-account.png" alt="Hosted Ticketing for organizers and the SDK and API for platforms run on one account and the same charts, with 14 payment gateways: Stripe, PayPal, Square, Braintree, Authorize.Net, Checkout.com, Mollie, Razorpay, Tap, Mercado Pago, Xendit, Flutterwave, Paystack and iyzico" width="100%">
+## SeatLayer SDK and API
 
-## Pricing
-
-- **Hosted Ticketing:** $0.50 per confirmed ticket, seated or not. Your first 25
-  tickets are free.
-- **SDK and API:** 100 free confirmed seats per organization each month, then
-  $0.10 down to $0.05 a seat. Credits never expire.
-
-## Seat map SDKs
+The same charts inside your own product: a seat picker for the web, iOS, Android, Flutter and React Native, and
+server SDKs that book the seats.
 
 | Platform | Package | Guide |
 | --- | --- | --- |
 | JavaScript / TypeScript | [`@seatlayer/js`](https://www.npmjs.com/package/@seatlayer/js) | [JavaScript seat map SDK](https://docs.seatlayer.io/buyer-sdk/install/) |
-| React | [`@seatlayer/react`](https://www.npmjs.com/package/@seatlayer/react) | [React seating chart](https://docs.seatlayer.io/buyer-sdk/react/) |
-| Vue | [`@seatlayer/vue`](https://www.npmjs.com/package/@seatlayer/vue) | [Vue seating chart](https://docs.seatlayer.io/buyer-sdk/vue/) |
-| Angular | [`@seatlayer/angular`](https://www.npmjs.com/package/@seatlayer/angular) | [Angular seating chart](https://docs.seatlayer.io/buyer-sdk/angular/) |
-| Flutter | [`seatlayer`](https://pub.dev/packages/seatlayer) | [Flutter seat picker](https://docs.seatlayer.io/buyer-sdk/flutter/) |
-| React Native / Expo | [`@seatlayer/react-native`](https://www.npmjs.com/package/@seatlayer/react-native) | [React Native seat map](https://docs.seatlayer.io/buyer-sdk/react-native/) |
-| Swift / SwiftUI | [seatlayer-ios](https://github.com/seatlayer/seatlayer-ios) | [iOS seating chart](https://docs.seatlayer.io/buyer-sdk/ios/) |
-| Kotlin / Compose | [`io.seatlayer:seatlayer-android`](https://central.sonatype.com/artifact/io.seatlayer/seatlayer-android) | [Android seating chart](https://docs.seatlayer.io/buyer-sdk/android/) |
-| WordPress | [seatlayer-wordpress](https://github.com/seatlayer/seatlayer-wordpress) | [WordPress seating chart plugin](https://docs.seatlayer.io/integrations/wordpress/) |
+| React, Vue, Angular | [seatlayer-sdk](https://github.com/seatlayer/seatlayer-sdk) | [React](https://docs.seatlayer.io/buyer-sdk/react/) · [Vue](https://docs.seatlayer.io/buyer-sdk/vue/) · [Angular](https://docs.seatlayer.io/buyer-sdk/angular/) |
+| iOS (Swift, SwiftUI) | [seatlayer-ios](https://github.com/seatlayer/seatlayer-ios) | [iOS seat map SDK](https://docs.seatlayer.io/buyer-sdk/ios/) |
+| Android (Kotlin, Compose) | [seatlayer-android](https://github.com/seatlayer/seatlayer-android) | [Android seat map SDK](https://docs.seatlayer.io/buyer-sdk/android/) |
+| Flutter | [seatlayer-flutter](https://github.com/seatlayer/seatlayer-flutter) · [pub.dev](https://pub.dev/packages/seatlayer) | [Flutter seat picker](https://docs.seatlayer.io/buyer-sdk/flutter/) |
+| React Native / Expo | [seatlayer-react-native](https://github.com/seatlayer/seatlayer-react-native) | [React Native seat map](https://docs.seatlayer.io/buyer-sdk/react-native/) |
+| WordPress | [seatlayer-wordpress](https://github.com/seatlayer/seatlayer-wordpress) · [wordpress.org](https://wordpress.org/plugins/seatlayer-seating-charts/) | [WordPress seating chart plugin](https://docs.seatlayer.io/integrations/wordpress/) |
 
-## Server SDKs
+Server SDKs: [Node.js](https://github.com/seatlayer/seatlayer-node) · [Python](https://github.com/seatlayer/seatlayer-python) ·
+[PHP](https://github.com/seatlayer/seatlayer-php) · [Java](https://github.com/seatlayer/seatlayer-java) ·
+[Go](https://github.com/seatlayer/seatlayer-go) · [Ruby](https://github.com/seatlayer/seatlayer-ruby) ·
+[.NET](https://github.com/seatlayer/seatlayer-dotnet). Season tickets are in the web and server SDKs.
 
-Confirm bookings, manage events and inventory, and verify webhooks from your backend.
+Start: [quick start](https://docs.seatlayer.io/start/quickstart/) · examples for [React](https://github.com/seatlayer/seatlayer-react-example)
+and [Next.js](https://github.com/seatlayer/seatlayer-nextjs-example) · [AI toolkit for coding agents](https://github.com/seatlayer/seatlayer-ai-toolkit)
+· [moving from seats.io](https://docs.seatlayer.io/integrations/migrate-from-seatsio/)
 
-| Language | Package | Guide |
-| --- | --- | --- |
-| Node.js | [`@seatlayer/server`](https://www.npmjs.com/package/@seatlayer/server) | [Node.js](https://docs.seatlayer.io/server-sdk/node/) |
-| Python | [`seatlayer`](https://pypi.org/project/seatlayer/) | [Python](https://docs.seatlayer.io/server-sdk/python/) |
-| PHP | [`seatlayer/seatlayer-php`](https://packagist.org/packages/seatlayer/seatlayer-php) | [PHP](https://docs.seatlayer.io/server-sdk/php/) |
-| Java | [`io.seatlayer:seatlayer-java`](https://central.sonatype.com/artifact/io.seatlayer/seatlayer-java) | [Java](https://docs.seatlayer.io/server-sdk/java/) |
-| Go | [`seatlayer-go`](https://pkg.go.dev/github.com/seatlayer/seatlayer-go) | [Go](https://docs.seatlayer.io/server-sdk/go/) |
-| Ruby | [`seatlayer`](https://rubygems.org/gems/seatlayer) | [Ruby](https://docs.seatlayer.io/server-sdk/ruby/) |
-| .NET | [`SeatLayer`](https://www.nuget.org/packages/SeatLayer) | [.NET](https://docs.seatlayer.io/server-sdk/dotnet/) |
+## Pricing
 
-## Start building
+- **Hosted Ticketing:** $0.50 per ticket, your first 25 free.
+- **SDK and API:** 100 free sold seats every month, then 10 cents down to 5 cents a seat. No
+  subscription, and credits you buy never expire.
 
-- Try it in your browser, no account needed: [pick a seat](https://app.seatlayer.io/demo/play/grand-theatre) · [the 3D venue](https://app.seatlayer.io/demo/play/grand-theatre?tour=3d) · [the chart designer](https://app.seatlayer.io/demo/designer) · [all live demos](https://seatlayer.io/demo/)
-- [Quickstart](https://docs.seatlayer.io/start/quickstart/) and [holds and checkout](https://docs.seatlayer.io/buyer-sdk/holds-and-checkout/)
-- Runnable examples: [React and Vite](https://github.com/seatlayer/seatlayer-react-example) · [Next.js](https://github.com/seatlayer/seatlayer-nextjs-example)
-- Moving from seats.io: [migration guide](https://docs.seatlayer.io/integrations/migrate-from-seatsio/)
-- AI agents: [SeatLayer AI Toolkit](https://github.com/seatlayer/seatlayer-ai-toolkit) and the [Designer MCP](https://docs.seatlayer.io/agents/designer-mcp/)
-- Performance evidence: [seatlayer-performance](https://github.com/seatlayer/seatlayer-performance) has the fixtures, method and raw runs behind the 200,000-seat benchmark (chart-ready in 1.95 s on desktop, 15 September 2026)
+## Proven at stadium scale
+
+200,000 seats on one chart, ready in 1.95 s. Tested at 10,000 simulated concurrent buyers on one 12,000-seat event (18 September 2026): engine-side hold latency p99 9 ms, zero server errors. Method and run files:
+[seatlayer-performance](https://github.com/seatlayer/seatlayer-performance) ·
+[open the 200,000-seat stadium](https://app.seatlayer.io/demo/play/century-stadium-200k)
+
+## Questions
+
+**What is SeatLayer?** Reserved-seat ticketing and seating software: hosted checkout, box office,
+door check-in and season tickets for organizers, and a seat map SDK and API for platforms, on the
+same charts, with 3D seat views. One chart drives a 2D map benchmarked at 200,000 seats and, for
+venues up to 60,000 seats, the 3D venue and the view from each seat.
+
+**What does it cost?** $0.50 per hosted ticket with the first 25 free, or on the SDK 100 free sold
+seats a month, then 10 cents down to 5 cents a seat. No subscription.
+
+**Which platforms does the SDK support?** Web (JavaScript, React, Vue, Angular), iOS, Android,
+Flutter and React Native, with server SDKs for Node.js, Python, PHP, Java, Go, Ruby and .NET.
+Every platform opens the same charts, and season tickets are in the web and server SDKs.
+
+**Is 3D extra?** No. Every chart up to 60,000 seats opens in 3D with the view from each seat, on
+every plan.
+
+**Can I move from seats.io?** Yes. Rebuild each chart in the Designer from your floor plan, a
+template or a file; the migration guide maps seats.io events, categories, holds, channels, seasons
+and webhooks to SeatLayer.
