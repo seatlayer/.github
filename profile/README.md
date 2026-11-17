@@ -57,7 +57,7 @@ and [Next.js](https://github.com/seatlayer/seatlayer-nextjs-example) · [AI tool
 
 ## Proven at stadium scale
 
-200,000 seats on one chart, ready in 1.95 s. Tested at 10,000 simulated concurrent buyers on one 12,000-seat event (18 September 2026): engine-side hold latency p99 9 ms, zero server errors. Method and run files:
+200,000 seats on one chart, ready in 1.95 s on desktop. Tested at 10,000 simulated concurrent buyers on one 12,000-seat event (18 September 2026): engine-side hold latency p99 9 ms, zero server errors. Method and run files:
 [seatlayer-performance](https://github.com/seatlayer/seatlayer-performance) ·
 [open the 200,000-seat stadium](https://app.seatlayer.io/demo/play/century-stadium-200k)
 
