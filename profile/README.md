@@ -22,8 +22,8 @@ with 3D seat views, through the SeatLayer SDK and API.
 - **Season tickets.** The same seat for every date of a season, with renewals. [Season tickets](https://seatlayer.io/season-tickets/)
 - **3D in the checkout.** Charts open in 3D with the view from each seat, for venues up to 30,000 seats on phones and 60,000 on desktop,
   with no modelling step. [3D seat map](https://seatlayer.io/3d-seat-map/)
-- **Any venue.** Draw it in the designer, start from a template, describe it to the AI chart
-  builder, or click one seat per block on your floor plan. [Venue designer](https://seatlayer.io/venue-designer/)
+- **Any venue.** Draw it in the designer, start from a template, have an AI agent build and edit it
+  through SeatLayer MCP for you to publish, or click one seat per block on your floor plan. [Venue designer](https://seatlayer.io/venue-designer/)
 
 ## SeatLayer SDK and API
 
