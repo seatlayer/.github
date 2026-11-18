@@ -18,7 +18,9 @@ with 3D seat views, through the SeatLayer SDK and API.
 - **Sell on your own site.** An event page and checkout through your own payment account, with
   14 payment gateways including Stripe, PayPal, Square and Razorpay. [Sell tickets on your website](https://seatlayer.io/sell-tickets-on-your-website/)
 - **Box office and door check-in.** Sell at the counter on the same live seats, and scan tickets
-  at the door with the SeatLayer iPhone app or any phone browser. [Box office](https://seatlayer.io/box-office/)
+  at the door with the SeatLayer app for
+  [iPhone](https://apps.apple.com/us/app/seatlayer/id6816299225) and
+  [Android](https://play.google.com/store/apps/details?id=io.seatlayer.organizer), or any phone browser. [Box office](https://seatlayer.io/box-office/)
 - **Season tickets.** The same seat for every date of a season, with renewals. [Season tickets](https://seatlayer.io/season-tickets/)
 - **3D in the checkout.** Charts open in 3D with the view from each seat, for venues up to 60,000 seats,
   with no modelling step. [3D seat map](https://seatlayer.io/3d-seat-map/)
