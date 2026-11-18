@@ -20,7 +20,7 @@ with 3D seat views, through the SeatLayer SDK and API.
 - **Box office and door check-in.** Sell at the counter on the same live seats, and scan tickets
   at the door with the SeatLayer iPhone app or any phone browser. [Box office](https://seatlayer.io/box-office/)
 - **Season tickets.** The same seat for every date of a season, with renewals. [Season tickets](https://seatlayer.io/season-tickets/)
-- **3D in the checkout.** Charts open in 3D with the view from each seat, for venues up to 30,000 seats on phones and 60,000 on desktop,
+- **3D in the checkout.** Charts open in 3D with the view from each seat, for venues up to 60,000 seats,
   with no modelling step. [3D seat map](https://seatlayer.io/3d-seat-map/)
 - **Any venue.** Draw it in the designer, start from a template, have an AI agent build and edit it
   through SeatLayer MCP for you to publish, or click one seat per block on your floor plan. [Venue designer](https://seatlayer.io/venue-designer/)
@@ -65,7 +65,7 @@ and [Next.js](https://github.com/seatlayer/seatlayer-nextjs-example) · [AI tool
 
 **What is SeatLayer?** Reserved-seat ticketing and seating software: hosted checkout, box office,
 door check-in and season tickets for organizers, and a seat map SDK and API for platforms, on the
-same charts, with 3D seat views. One chart drives a 2D map benchmarked at 200,000 seats and, for venues up to 30,000 seats on phones and 60,000 on desktop,
+same charts, with 3D seat views. One chart drives a 2D map benchmarked at 200,000 seats and, for venues up to 60,000 seats,
 the 3D venue and the view from each seat.
 
 **What does it cost?** $0.50 per hosted ticket with the first 25 free, or on the SDK 100 free sold
@@ -75,7 +75,7 @@ seats a month, then 10 cents down to 5 cents a seat. No subscription.
 Flutter and React Native, with server SDKs for Node.js, Python, PHP, Java, Go, Ruby and .NET.
 Every platform opens the same charts, and season tickets are in the web and server SDKs.
 
-**Is 3D extra?** No. Charts open in 3D with the view from each seat on every plan, for venues up to 30,000 seats on phones and 60,000 on desktop.
+**Is 3D extra?** No. Charts open in 3D with the view from each seat on every plan, for venues up to 60,000 seats.
 
 **Can I move from seats.io?** Yes. Rebuild each chart in the Designer from your floor plan, a
 template or a file; the migration guide maps seats.io events, categories, holds, channels, seasons
