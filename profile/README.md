@@ -1,6 +1,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="./assets/seatlayer-hero-dark.jpg">
-  <img src="./assets/seatlayer-hero-light.jpg" alt="SeatLayer: reserved-seat ticketing on its own seat map engine. 200,000 seats on one chart, 3D in the checkout, 14 payment gateways, $0.50 a hosted ticket." width="100%">
+  <img src="./assets/seatlayer-hero-light.jpg" alt="SeatLayer. We build the seat map engine. Then we sell tickets on it. Seating charts, hosted ticketing and SDKs for web, mobile and your server, on one account. 200,000 seats on one chart, 3D in the checkout, 14 payment gateways, $0.50 a hosted ticket. A 3D view from Lower Bowl D, Row 8B, Seat 12." width="100%">
 </picture>
 
 **SeatLayer is reserved-seat ticketing and seating software:** organizers sell with hosted
